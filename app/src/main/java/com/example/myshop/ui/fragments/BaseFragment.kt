@@ -10,7 +10,7 @@ open class BaseFragment : Fragment() {
 
 
     private lateinit var mProgressDialog: Dialog
-
+    // END
 
     fun showProgressDialog(text: String) {
         mProgressDialog = Dialog(requireActivity())
@@ -28,7 +28,9 @@ open class BaseFragment : Fragment() {
         mProgressDialog.show()
     }
 
-
+    /**
+     * This function is used to dismiss the progress dialog if it is visible to user.
+     */
     fun hideProgressDialog() {
         mProgressDialog.dismiss()
     }

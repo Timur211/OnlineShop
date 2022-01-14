@@ -14,10 +14,45 @@
         android:theme="@style/Theme.MyShop"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".ui.activities.AddProductActivity"
+            android:name=".ui.activities.SoldProductDetailsActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyShop.NoActionBar"/>
+        <activity
+            android:name=".ui.activities.MyOrderDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.CheckoutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.AddEditAddressActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.AddressListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.CartListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.ProductDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
+        <activity
+            android:name=".ui.activities.AddProductActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar" />
         <activity
             android:name=".ui.activities.SettingsActivity"
             android:exported="false"

@@ -9,8 +9,11 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.myshop.R
 import com.example.myshop.firestore.FirestoreClass
 import com.example.myshop.models.Product
+import com.example.myshop.ui.activities.CartListActivity
+import com.example.myshop.ui.activities.ProductDetailsActivity
 import com.example.myshop.ui.activities.SettingsActivity
 import com.example.myshop.ui.adapters.DashboardItemsListAdapter
+import com.example.myshop.utils.Constants
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 
 class DashboardFragment : BaseFragment() {
@@ -47,6 +50,11 @@ class DashboardFragment : BaseFragment() {
                 startActivity(Intent(activity, SettingsActivity::class.java))
                 return true
             }
+
+            R.id.action_cart -> {
+                startActivity(Intent(activity, CartListActivity::class.java))
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -57,7 +65,9 @@ class DashboardFragment : BaseFragment() {
         getDashboardItemsList()
     }
 
-
+    /**
+     * A function to get the dashboard items list from cloud firestore.
+     */
     private fun getDashboardItemsList() {
         // Show the progress dialog.
         showProgressDialog(resources.getString(R.string.please_wait))
@@ -65,7 +75,11 @@ class DashboardFragment : BaseFragment() {
         FirestoreClass().getDashboardItemsList(this@DashboardFragment)
     }
 
-
+    /**
+     * A function to get the success result of the dashboard items from cloud firestore.
+     *
+     * @param dashboardItemsList
+     */
     fun successDashboardItemsList(dashboardItemsList: ArrayList<Product>) {
 
         // Hide the progress dialog.
@@ -81,6 +95,18 @@ class DashboardFragment : BaseFragment() {
 
             val adapter = DashboardItemsListAdapter(requireActivity(), dashboardItemsList)
             rv_dashboard_items.adapter = adapter
+
+            adapter.setOnClickListener(object :
+                DashboardItemsListAdapter.OnClickListener {
+                override fun onClick(position: Int, product: Product) {
+
+                    val intent = Intent(context, ProductDetailsActivity::class.java)
+                    intent.putExtra(Constants.EXTRA_PRODUCT_ID, product.product_id)
+                    intent.putExtra(Constants.EXTRA_PRODUCT_OWNER_ID, product.user_id)
+                    startActivity(intent)
+                }
+            })
+            // END
         } else {
             rv_dashboard_items.visibility = View.GONE
             tv_no_dashboard_items_found.visibility = View.VISIBLE

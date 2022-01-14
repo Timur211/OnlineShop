@@ -6,31 +6,46 @@
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable-v24/app_gradient_color_background.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable-v24/drawable_gender_tab_text_color_selector.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable-v24/item_primary_color_border_background.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable-v24/user_image_background.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/button_background.xml" value="0.25" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_black_color_back_24.xml" value="0.25" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_add.xml" value="0.221875" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_add_photo.xml" value="0.25" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_cart.xml" value="0.221875" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_chevron_right.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_dashboard.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_delete.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_edit.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_orders.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_remove.xml" value="0.221875" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_settings.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_sold_products.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_white_delete.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_vector_white_edit.xml" value="0.19479166666666667" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_white_color_back_24.xml" value="0.25" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/ic_white_color_back_24dp.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/item_dashboard_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/item_grey_border_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/drawable/rv_item_image_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_add_edit_address.xml" value="0.14855072463768115" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_add_product.xml" value="0.23385416666666667" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_addproduct.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_address_list.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_adress_list.xml" value="0.14855072463768115" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_base.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_cart_list.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_checkout.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_dashboard.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_login.xml" value="0.225" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_my_order_details.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_product_details.xml" value="0.1828125" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_settings.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_sold_product_details.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_splash.xml" value="0.16" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/activity_user_profile.xml" value="0.228125" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/dialog_progess.xml" value="0.25" />
@@ -38,6 +53,9 @@
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/fragment_dashboard.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/fragment_orders.xml" value="0.2015625" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/fragment_products.xml" value="0.2015625" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/fragment_sold_products.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/item_address_layout.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/item_cart_layout.xml" value="0.22" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/item_dashboard_layout.xml" value="0.2" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/layout/item_list_layout.xml" value="0.22" />
         <entry key="..\:/Users/Tim/AndroidStudioProjects/MyShop/app/src/main/res/menu/add_product_menu.xml" value="0.20572916666666666" />

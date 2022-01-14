@@ -62,7 +62,11 @@ class ProductsFragment : BaseFragment() {
         FirestoreClass().getProductsList(this@ProductsFragment)
     }
 
-
+    /**
+     * A function to get the successful product list from cloud firestore.
+     *
+     * @param productsList Will receive the product list from cloud firestore.
+     */
     fun successProductsListFromFireStore(productsList: ArrayList<Product>) {
 
         // Hide Progress dialog.
@@ -84,22 +88,15 @@ class ProductsFragment : BaseFragment() {
         }
     }
 
-
+    /**
+     * A function that will call the delete function of FirestoreClass that will delete the product added by the user.
+     *
+     * @param productID To specify which product need to be deleted.
+     */
     fun deleteProduct(productID: String) {
 
-        // START
-        // Here we will call the delete function of the FirestoreClass. But, for now lets display the Toast message and call this function from adapter class.
-
-        /*Toast.makeText(
-            requireActivity(),
-            "You can now delete the product. $productID",
-            Toast.LENGTH_SHORT
-        ).show()*/
-
         showAlertDialogToDeleteProduct(productID)
-        // END
     }
-
 
     /**
      * A function to notify the success result of product deleted from cloud firestore.
@@ -118,7 +115,11 @@ class ProductsFragment : BaseFragment() {
         // Get the latest products list from cloud firestore.
         getProductListFromFireStore()
     }
+    // END
 
+    /**
+     * A function to show the alert dialog for the confirmation of delete product from cloud firestore.
+     */
     private fun showAlertDialogToDeleteProduct(productID: String) {
 
         val builder = AlertDialog.Builder(requireActivity())
@@ -131,13 +132,11 @@ class ProductsFragment : BaseFragment() {
         //performing positive action
         builder.setPositiveButton(resources.getString(R.string.yes)) { dialogInterface, _ ->
 
-
             // Show the progress dialog.
             showProgressDialog(resources.getString(R.string.please_wait))
 
             // Call the function of Firestore class.
             FirestoreClass().deleteProduct(this@ProductsFragment, productID)
-            // END
 
             dialogInterface.dismiss()
         }
@@ -153,4 +152,5 @@ class ProductsFragment : BaseFragment() {
         alertDialog.setCancelable(false)
         alertDialog.show()
     }
+    // END
 }

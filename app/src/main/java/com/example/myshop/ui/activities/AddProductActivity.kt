@@ -17,7 +17,7 @@ import com.example.myshop.firestore.FirestoreClass
 import com.example.myshop.models.Product
 import com.example.myshop.utils.Constants
 import com.example.myshop.utils.GlideLoader
-import kotlinx.android.synthetic.main.activity_addproduct.*
+import kotlinx.android.synthetic.main.activity_add_product.*
 import java.io.IOException
 
 class AddProductActivity : BaseActivity(), View.OnClickListener {
@@ -77,7 +77,13 @@ class AddProductActivity : BaseActivity(), View.OnClickListener {
         }
     }
 
-
+    /**
+     * This function will identify the result of runtime permission after the user allows or deny permission based on the unique code.
+     *
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
@@ -187,7 +193,9 @@ class AddProductActivity : BaseActivity(), View.OnClickListener {
         }
     }
 
-
+    /**
+     * A function to upload the selected product image to firebase cloud storage.
+     */
     private fun uploadProductImage() {
 
         showProgressDialog(resources.getString(R.string.please_wait))
@@ -231,6 +239,9 @@ class AddProductActivity : BaseActivity(), View.OnClickListener {
         FirestoreClass().uploadProductDetails(this@AddProductActivity, product)
     }
 
+    /**
+     * A function to return the successful result of Product upload.
+     */
     fun productUploadSuccess() {
 
         // Hide the progress dialog
